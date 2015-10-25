@@ -9,6 +9,17 @@ An analysis of accelerometer data generated from an experiment with Samsung Gala
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 #  code book
+
+Group.1 means activity labels, 
+- 1 WALKING
+- 2 WALKING_UPSTAIRS
+- 3 WALKING_DOWNSTAIRS
+- 4 SITTING
+- 5 STANDING
+- 6 LAYING
+
+Group.2 means subject, from 1 to 30. 
+
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
@@ -36,12 +47,3 @@ The set of variables that were estimated from these signals are:
 - mean: Mean value
 - std: Standard deviation
 
-Group.1 means activity labels, 
-- 1 WALKING
-- 2 WALKING_UPSTAIRS
-- 3 WALKING_DOWNSTAIRS
-- 4 SITTING
-- 5 STANDING
-- 6 LAYING
-
-Group.2 means subject, from 1 to 30. 
