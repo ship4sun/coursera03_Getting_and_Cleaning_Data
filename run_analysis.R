@@ -13,7 +13,7 @@
 
 setwd("D:/Bigdata/Coursera/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset")
 
-#2) Load the feature lables, 561
+#2) Load the feature lables
 features <- read.table("features.txt")
 features_2 <- features[,2]
 
